@@ -1,0 +1,49 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.pops{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
+
+.active, .pops:hover{
+    border-bottom: 3px solid yellow;
+}
+
+.red-btn{
+    width: 180px;
+    height: 40px;
+    background-color:rgb(231,50,49);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.bank-logo{
+    width: 230px;
+    position: relative;
+    left: 1100px;
+    bottom: 112px;
+}
+
+
+/* Dark Mood AND Light Mood */
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+}
