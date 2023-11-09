@@ -34,16 +34,25 @@ html{
     bottom: 112px;
 }
 
-
-/* Dark Mood AND Light Mood */
-body {
-    padding: 25px;
-    background-color: white;
-    color: black;
-    font-size: 25px;
+.ul-list{
+    display: flex;
+    flex-direction:row; 
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    align-items: center; 
 }
-  
-  .dark-mode {
-    background-color: black;
-    color: white;
+
+.ul-font-set{
+    position: relative;
+    right: 30px;
+    top: 18px;
+}
+
+.p-com{
+    font: 12px;
+    color: blue;
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
